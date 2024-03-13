@@ -179,8 +179,8 @@
 }
 
 .container---wider {
-  width: 1050px;
-  max-width: 95%;
+  width: 95%;
+  max-width: 1050px;
 }
 
 .container---wider.cc-header {
@@ -264,10 +264,18 @@
 }
 
 @media screen and (max-width: 767px) {
+  .body-heading {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
   .white-hero-section {
     height: 105vh;
     padding-bottom: 20vh;
-    padding-right: 0%;
+  }
+
+  .heading {
+    font-size: 40px;
   }
 
   .centred-paragraph {
@@ -276,13 +284,31 @@
 }
 
 @media screen and (max-width: 479px) {
+  .body-heading {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
   .grid {
     grid-row-gap: 40px;
     grid-template-columns: 100%;
   }
 
-  .white-hero-section {
-    padding-bottom: 10vh;
+  .album-name {
+    font-size: 24px;
+  }
+
+  .contact-info {
+    padding-top: 10px;
+  }
+
+  .audio-embed-formatting {
+    padding-bottom: 25px;
+    font-size: 18px;
+  }
+
+  .container---wider {
+    width: 90%;
   }
 
   .heading {
@@ -290,9 +316,27 @@
     font-size: 30px;
   }
 
+  .heading-2 {
+    font-size: 150px;
+  }
+
+  .text-block-6 {
+    font-size: 10px;
+  }
+
   .white-hero-div {
     grid-column-gap: 20px;
     grid-row-gap: 20px;
+  }
+
+  .div-block-3 {
+    margin-left: 10px;
+  }
+
+  .html-embed {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
