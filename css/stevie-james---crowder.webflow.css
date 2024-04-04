@@ -16,10 +16,10 @@
 }
 
 .w-embed-youtubevideo {
-  width: 100%;
   background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
   background-position: 50%;
   background-size: cover;
+  width: 100%;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
@@ -90,9 +90,9 @@
 }
 
 .footer {
-  height: 20vh;
   background-color: var(--black);
   align-items: center;
+  height: 20vh;
   display: flex;
 }
 
@@ -150,10 +150,10 @@
 }
 
 .youtube-embed-container {
-  width: 1050px;
-  max-width: 95%;
   flex-direction: column;
   align-items: center;
+  width: 1050px;
+  max-width: 95%;
   display: flex;
 }
 
@@ -191,18 +191,18 @@
 }
 
 .container---centred-widened {
-  width: 1050px;
-  max-width: 95%;
   flex-direction: column;
   align-items: center;
+  width: 1050px;
+  max-width: 95%;
   display: flex;
 }
 
 .white-hero-section {
-  height: 115vh;
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-end;
+  height: 115vh;
   padding-bottom: 30vh;
   display: flex;
 }
